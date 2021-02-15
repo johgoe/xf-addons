@@ -12,7 +12,7 @@ The SAP CP Extension Factory (XF) is designed to easily extend and mash up diffe
 
 This add-ons repository as defined by [index.yaml](addons/index.yaml) is installed to XF by default.
 
-If you need to install it manually, you need to create a `ClusterAddonsConfiguration` or `AddonsConfiguration` resource in your XF or Kyma cluster using URL `github.com/sap/xf-addons//addons/index.yaml?ref=0.11`:
+If you need to install it manually, you need to create a `ClusterAddonsConfiguration` or `AddonsConfiguration` resource in your XF or Kyma cluster using URL `github.com/SAP-samples/xf-addons//addons/index.yaml?ref=0.11`:
 
 ```yaml
 apiVersion: addons.kyma-project.io/v1alpha1
@@ -21,7 +21,7 @@ metadata:
   name: xf-addons
 spec:
   repositories:
-    - url: "github.com/sap/xf-addons//addons/index.yaml?ref=0.11"
+    - url: "github.com/SAP-samples/xf-addons//addons/index.yaml?ref=0.11"
 ```
 
 With that, all addons of this repository will be available in your Service Catalog.
@@ -35,7 +35,7 @@ All add-ons are based on the [Kyma Helm Broker](https://kyma-project.io/docs/com
 
 ## How to obtain support
 
-In case you find a bug or have ideas please open a [Github Issue](https://github.com/SAP/xf-addons/issues). Feel free to contribute by creating a Pull Request.
+In case you find a bug or have ideas please open a [Github Issue](https://github.com/SAP-samples/xf-addons/issues). Feel free to contribute by creating a Pull Request.
 
 ## License
 

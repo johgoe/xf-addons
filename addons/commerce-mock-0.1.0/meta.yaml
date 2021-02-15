@@ -8,7 +8,7 @@ labels:
   preview: "true"
 providerDisplayName: SAP
 longDescription:  "Lightweight substitute of SAP Commerce Cloud based on APIs only. It is not recommended for production scenarios."
-documentationURL: https://github.com/SAP/xf-application-mocks/tree/master/commerce-mock
-imageURL: https://rawcdn.githack.com/SAP/xf-addons/master/addons/commerce-mock-0.1.0/icon.svg
+documentationURL: https://github.com/SAP-samples/xf-application-mocks/tree/master/commerce-mock
+imageURL: https://rawcdn.githack.com/SAP-samples/xf-addons/master/addons/commerce-mock-0.1.0/icon.svg
 bindable: false
 provisionOnlyOnce: true
